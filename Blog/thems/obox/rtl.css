@@ -1,0 +1,42 @@
+/* rtl & translated by Masoud Golchin | http://7thline.ir */
+body {
+	font-family:tahoma;
+}
+#sidebar {
+	direction:rtl;
+	text-align:right;
+}
+
+#content {
+	direction:rtl;
+	text-align:right;
+}
+blockquote {
+	margin:5px 25px 5px 5px;
+	padding:0 5px 0 0;
+	border-right:2px solid #705A3D;
+	border-left:0;
+}
+code {
+	display:block;
+	direction:ltr;
+	text-align:left;
+}
+#footer {
+	direction:rtl;
+	color:#F2EBDF;
+	font-size:11px;
+
+.commentlist li {
+	font-size:11px;
+}
+#footer a:link, #footer a:visited {
+	color:#E0D8C8;
+}
+.commentsblock input {
+	font-size:11px;
+	font-family:tahoma;
+}
+#email, #url { 
+	direction:ltr;
+}

@@ -1,0 +1,431 @@
+/* 
+Theme Name: The Wind Cries Mary
+Theme URI: http://grabatheme.com/grab/thewindcriesmary
+Description: Livejournal template by <a href="http://community.livejournal.com/thefulcrum">grrliz</a>, converted to WP by <a href="http://grabatheme.com">Grab A Theme</a>.
+Background image by<a href="http://www.24-7media.de">24-7 Media</a>, brushes by <a href="http://www.designfruit.com/jasongaylor/blog/">Jason Gaylor</a>.	
+Author: Grrliz & Grab A Theme
+*/
+
+a { color: #555555; text-decoration: underline; }
+a:visited { color: #555555; }
+a:hover { color: #444444; }
+
+h1, h2, h3, h4, h5, h6 {margin: 5px 0px;}
+
+blockquote {
+	margin: 10px 30px; 
+	padding: 10px; 
+	border: 1px solid #379CB3;
+	background: #f3f3f3;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	}
+ol {
+	margin: 10px 40px;
+	padding: 0px;
+	list-style: upper-roman;
+	}
+
+input, textarea {
+	margin: 1px; 
+	border: 1px solid #cccccc; 
+	background: #ffffff; 
+	color: #444444;
+	}
+
+#alpha ul {list-style-image:url(images/15_separator.gif)}
+
+/* --------------------------------- */
+/* ---------- PAGE LAYOUT ---------- */
+/* --------------------------------- */
+
+html {margin: 0px; padding: 0px;}
+
+body {
+	margin: 0px; 
+	padding: 0px; 
+	background: url(images/15_bg.gif) top center repeat #fafafa;
+	color: #444444;
+	font-size: 0.7em;
+	font-family: georgia, "times new roman", serif;
+	line-height: 1.7em;
+	text-align: center; 
+	} 
+
+#container {
+	width: 840px;
+	margin: 0px auto; padding: 0px;
+	background: url(images/15_containerbg.gif) top right repeat-y #ffffff;
+	text-align: left;
+	}
+
+#container-inner {
+	background: url(images/15_containerbg2.gif) top left repeat-y transparent;
+	}
+
+
+#pagebody {
+	margin: 0px auto;
+	padding: 0px;
+	background: url(images/15_pagebody.gif) bottom right no-repeat transparent;
+	}
+	
+#alpha, #beta {
+	display: inline; 
+	position: relative; 
+	float: left;
+	}
+
+/* ---------------------------- */
+/* ---------- HEADER ---------- */
+/* ---------------------------- */
+
+#banner {
+	height: 105px;
+	margin: 0px;
+	padding: 0px 320px 0px 20px;
+	background: url(images/15_bannerbg.gif) top right no-repeat transparent;
+	font-family: "palatino linotype", georgia, "times new roman", serif;
+	text-transform: uppercase;
+	}
+
+#banner-inner {
+	padding: 60px 0px 0px 0px;
+	}
+
+#banner h1 {
+	margin: 0px 20px 0px 0px;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	}
+
+#banner h1 a {text-decoration:none}
+
+#banner h2 {
+	margin: 0px 180px 0px 0px;
+	font-size: 1em;
+	color: #888888;
+	letter-spacing: 1px;
+	}
+
+/* ----------------------------- */
+/* ---------- CONTENT ---------- */
+/* ----------------------------- */
+
+h2.pagetitle {text-align:right;
+font-weight:normal;
+color:#888;
+}
+
+.entry-content {
+	position: static; 
+	clear: both; 
+	}
+
+.entry-content li {
+	margin: 10px 0px; 
+	}
+
+.content-nav {
+	margin: 10px 0px 10px 10px; 
+	text-align: right;
+	}
+
+div.content-nav a, div.content-nav a:link {color: #379CB3; 
+text-decoration: none;}
+div.content-nav a:hover {color: #444444;}
+
+.date-header {
+	margin: 10px 0px; 
+	color: #bbbbbb;
+	clear: both;
+	}
+
+h2.entry-header {
+	padding: 0px 0px 10px 0px;
+	border-bottom: 3px double #cccccc;
+	color: #379CB3;
+	font-size: 1em;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	}
+
+.entry-body a:link, 
+.entry-body a:visited, 
+.entry-body a:active {
+	color: #379CB3;
+	text-decoration: none;
+	}
+
+
+.entry-body a:hover {
+	color: #444444;
+	}
+
+.metadata {
+	margin: 10px 0px;
+	line-height: 1.2em;
+	}
+
+.metadata img {display: none;}
+
+.tags {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+.tags a:hover, dl a:hover {color: #379CB3;}
+
+.entry-footer a, 
+.entry-footer a:link,
+.entry-footer a:visited,
+.entry-footer a:active {color: #999999; text-decoration: none;}
+.entry-footer a:hover {color: #379CB3;}
+
+.post-footers {
+	display: block; 
+	margin: 3px 0px 0px 0px; 
+	}
+
+div.entry-footer {
+	margin: 0px 0px 20px 0px;
+	padding: 10px 90px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	background: #eeeeee;
+	color: #999999;
+	text-align: center;
+	}
+
+span.archive-permalink {display:block;
+margin:-10px 0 30px 0}
+
+span.separator {
+	padding: 8px;
+	background: url(images/15_separator.gif) 4px 2px no-repeat;
+	color: #eee;
+	font-size: 1px !important; 
+	line-height: 1px;
+	text-indent: -999px;
+	}
+
+.comment {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	border: 1px solid #cccccc;
+	background: #e9e9e9;
+	}
+
+.comment-content {
+	padding: 10px;
+	}
+
+.comments, .comments-open-header {
+	padding: 15px 0px 0px 0px;
+	}
+
+.comment-footer {
+	margin: 0px;
+	padding: 10px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background: #e3e3e3;
+	}
+
+.entry,
+.trackbacks,
+.comments,
+.archive {position: static; overflow: hidden; clear: both; width: 100%; margin-bottom: 0px;}
+
+.entry-content,
+.trackbacks-info,
+.trackback-content,
+.comment-content,
+.comments-open-content,
+.comments-closed {clear: both; margin: 0px;}
+
+.entry-excerpt,
+.entry-body,
+.entry-more-link,
+.entry-more {clear: both;}
+
+.entry-footer,
+.trackback-footer,
+.comment-footer,
+.comments-open-footer, 
+.archive-content {clear: both; margin: 5px 0px 15px 0px;}
+
+.comments-open label { display: block; }
+
+#comment-author, #comment-email, #comment-url, #comment-text {width: 240px;}
+#comment-post {font-weight: bold;}
+
+
+
+
+
+/* ----------------------------- */
+/* ---------- MODULES ---------- */
+/* ----------------------------- */
+
+.module {
+	margin: 0px;
+	}
+
+#beta h2 {
+	margin:30px 10px 0 0;
+	color: #379CB3;
+	font-size: 1.3em; 
+	font-weight: bold; 
+	font-variant: small-caps;
+	}
+
+#beta-inner {
+	padding: 0 20px 0 0;
+
+	}
+
+#beta a {
+	color: #eeeeee;
+	text-decoration: none;
+	}
+
+#beta a:hover {
+	color: #379CB3;
+	}
+
+
+#beta ul li {	
+	margin: 0px; padding: 0px;
+	list-style-type: none;
+	}
+
+#beta ul li ul {margin:0;
+padding:0;}
+
+#beta ul li ul li {
+	margin: 0px; padding: 0px 0px 0px 15px;
+	background: url(images/15_betabullet.gif) 0px 6px no-repeat;
+	}
+
+#beta ul li ul li ul li{background:none;
+padding:0 0 0 8px}
+
+
+/* --- page links --- */
+div#navigation {
+	margin: 50px 0px 20px 0px;
+	padding: 11px 0px 0px 0px;
+	background: url(images/15_viewlinks.gif) top left no-repeat;
+	font-size: 1.4em;
+	text-transform: lowercase;
+	}
+
+
+div#navigation div.module-content{
+	margin: 0px;
+	padding: 0px 0px 11px 0px;
+	background: url(images/15_viewlinksmc.gif) bottom left no-repeat;
+	}
+
+div#navigation ul {
+	margin: 0px; padding: 0px;
+	background: url(images/15_viewlinksul.gif) top left repeat-y;
+	}
+
+div#navigation ul li.page-item {
+	margin: 0px 0px 0px 17px; 
+	padding: 0px 5px 0px 0px;
+	background: none;
+	}
+
+div#navigation ul li a {
+	display: block;
+	padding: 2px 10px 2px 10px;
+	border-bottom: 1px solid #2d8fa5;
+	margin: 0 5px 0 17px
+	}
+
+div#navigation ul li a:hover {
+	border-bottom: 1px solid #2d8fa5;
+	background: url(images/15_viewlinksa.gif) left center repeat-y transparent;
+	color: #ffffff;
+	}
+
+div#navigation ul li ul {display:none}
+
+
+/* --- sidebar calendar --- */
+#wp-calendar .module-header {margin: 0px 30px 0px 30px; padding: 0px; background: #333333;}
+#wp-calendar table {border-collapse: collapse; width: 100%;}
+#wp-calendar th, #wp-calendar td {width: 14%; text-align: center;}
+#wp-calendar a {background: #333333; color: #379CB3; display: block; width: 90%; border: 1px solid #666666;}
+#wp-calendar a:hover {color: #ffffff;}
+td#prev a, td#next a {border:0}
+
+
+/* --- powered by box --- */
+#powered {
+	margin: 0px 0px 0px 30px;
+	border: 1px solid #222222;
+	background: #3a3a3a;
+text-align:center
+	}
+
+#powered ul {margin:0; padding:0}
+#powered .module-content {margin: 0px; padding: 5px 10px;}
+#powered a, #powered a:link {font-weight: bold;}
+
+
+
+
+
+
+/* --------------------------------------- */
+/* ---------- TWO COLUMNS RIGHT ---------- */
+/* --------------------------------------- */
+
+
+.layout-two-column-right #alpha {
+	width: 625px;
+	}
+
+.layout-two-column-right #alpha-inner {
+	margin: 0px 20px;
+	background: #ffffff;
+	}
+
+
+.layout-two-column-right #beta {
+	float: right;
+	width: 215px; 
+	padding-bottom: 200px; 
+	background: url(images/15_betabg.gif) top right no-repeat;
+	color: #dddddd;
+	}
+
+
+a img {border:0}
+
+
+/* ----------------------------------------------------- */
+/* WHATEVER YOU DO, DO NOT EDIT ANYTHING BELOW THIS LINE */
+/* ----------------------------------------------------- */
+
+/* .pkg class wraps enclosing block element around inner floated elements */
+.pkg:after
+{
+	content: " ";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+}
+* html .pkg { display: inline-block; }
+/* no ie mac \*/
+* html .pkg { height: 1%; }
+.pkg { display: block; }
+/* */
