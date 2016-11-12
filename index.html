@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sepideh Gheysar</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <link href="css/font.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="foundation/foundation-icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/simptip.css" />
+
+    <link rel="stylesheet" href="bootstrap-3.1.1-dist/css/bootstrap.min.css">
+
+    <meta name="description" content="Sepideh Gheysar personal website, a mobile user interface designer." />
+    <meta name="keywords" content="sepideh, gheysar, gheisar, sepideh gheisar, sepideh gheysar, user interface, design, mobile, mobile design, web design, UI,UX, iOS, Android, سپیده, قیصر, سپیده قیصر, طراحی , طراحی مجدد, طراحی وب, موبایل, طراحی موبایل,طراحی رابط کاربری موبایل, اپلیکیشن, طراحی اپلیکیشن,  رابط کاربری" />
+
+    <meta name="google-site-verification" content="xPG25ZV_DpEQ8uplLu7CayTAauZyZr2e23Moh0EsMt0" />
+
+    <style>
+        body {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            min-height: 1040px;
+        }
+
+        body > .container-fluid {
+            height: 100%;
+        }
+
+        body > .container-fluid > .row  {
+            height: 50%;
+            position: relative;
+        }
+
+        .sky {
+            background-color:#2cb3f1;
+        }
+
+        .earth {
+            background-color: #fff;
+        }
+
+        .picture {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            background: url("images/sgheysar-com-avatar.png") 0 0;
+            background-size:150px 150px;
+            border: 4px #FFF solid;
+            z-index:1000;
+        }
+
+        .sky > div {
+            position: relative;
+            height: 100%;
+        }
+
+        .sky .info {
+            font-family: 'Whitney SSm A','Whitney SSm B',Helvetica,Arial;
+            font-weight:300;
+            font-style:normal;
+            line-height: 42px;
+            font-size:27px;
+            color:#FFF;
+            text-align:center;
+            text-shadow: 0 1px 1px #9b9b9b;
+            position: absolute;
+            bottom: 130px;
+            height: 300px;
+            left: 0;
+            right: 0;
+            padding: 0 20px;
+        }
+
+        .sky .info .hello {
+            font-size:52px;
+            margin-bottom:30px;
+        }
+
+        .sky .info .socialicons {
+            margin-top:20px;
+        }
+
+        .sky .socialicons a{
+            color:#FFF;
+            -webkit-box-sizing: content-box !important;
+            -moz-box-sizing: content-box !important;
+            box-sizing: content-box !important;
+        }
+
+        .sky .info .socialicons i{
+            margin-left:15px;
+            margin-right:15px;
+            font-size:35px;
+            width:800px
+        }
+
+        .earth .moreinfo{
+            font-family: 'Whitney SSm A','Whitney SSm B',Helvetica,Arial;
+            font-weight:300;
+            font-style:normal;
+            line-height: 42px;
+            font-size:22px;
+            color:#111111;
+            height:160px;
+            margin-top:150px;
+            padding: 0 20px;
+            text-align:center;
+        }
+
+        .earth .moreinfo a{
+            color:#1c92e5;
+            text-decoration:none;
+        }
+
+        .earth .moreinfo a:hover{
+            color:#309;
+            text-decoration:none;
+        }
+
+        .footer{
+            font-family: 'Whitney SSm A','Whitney SSm B',Helvetica,Arial;
+            font-weight:300;
+            font-style:normal;
+            font-size:15px;
+            color:#999999;
+            height:30px;
+            margin: 200px auto 50px;
+            text-align:center;
+        }
+
+        ::-moz-selection{
+            background:#006ba9;
+            color:#fff;
+        }
+
+        ::selection{
+            background:#006ba9;
+            color:#fff;
+        }
+
+        [data-tooltip]:before, [data-tooltip]:after {
+                         box-sizing: content-box;
+        }
+
+        @media (max-width: 700px)  {
+            body {
+                min-height: 820px;
+            }
+
+            .sky .info .longtext {
+                display: none;
+            }
+
+            .sky .info .smalltext {
+                display: block;
+            }
+
+            .earth .moreinfo .longtext {
+                display: block;
+            }
+
+            .earth .moreinfo .smalltext {
+                display: none;
+            }
+
+            .sky .info .hello {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            .sky .info,  .earth .moreinfo {
+                font-size: 24px;
+                line-height: 40px;
+                height: 250px;
+            }
+
+            .sky .info {
+                bottom: 130px;
+            }
+
+            .earth .moreinfo {
+                margin-top: 100px;
+            }
+
+            .footer {
+                margin-top: 50px;
+            }
+
+            .sky .info .socialicons i {
+                font-size: 48px;
+            }
+        }
+
+        @media (max-width: 320px) {
+            body {
+                min-height: 820px;
+            }
+
+            .sky .info .hello {
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+
+            .sky .info,  .earth .moreinfo {
+                font-size: 20px;
+                line-height: 36px;
+                height: 250px;
+            }
+
+            .sky .info {
+                bottom: 130px;
+            }
+
+            .earth .moreinfo {
+                margin-top: 100px;
+            }
+
+            .footer {
+                margin-bottom: 10px;
+                margin-top: 50px;
+                font-size: 12px;
+            }
+
+            .sky .info .socialicons i {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="picture"></div>
+
+<div class="container-fluid">
+    <div class="row sky">
+
+        <div class="col-md-12">
+
+            <div class="info">
+            <p class="hello">Hello</p>
+                <p class="longtext">
+            I'm Sepideh Gheysar. A product manager, designer and UX leader. I'm passionate about creating <br />
+            usable touchscreen products :)
+                </p>
+
+                <p class="smalltext" hidden>
+                    I'm Sepideh Gheysar. A product manager, designer and UX leader.
+                </p>
+
+            <div class="socialicons">
+                <a href="http://dribbble.com/sgheysar" class="simptip-position-top simptip-movable" data-tooltip="Dribbble"><i class="fi-social-dribbble"></i></a>
+                <a href="http://www.behance.net/SepidehGheysar" class="simptip-position-top simptip-movable" data-tooltip="Behance"><i class="fi-social-behance"></i></a>
+                <a href="https://twitter.com/gheysars" class="simptip-position-top simptip-movable" data-tooltip="Twitter"><i class="fi-social-twitter"></i></a>
+                <a href="http://ir.linkedin.com/in/sgheysar" class="simptip-position-top simptip-movable" data-tooltip="LinkedIn"><i class="fi-social-linkedin"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="row earth">
+        <div class="col-md-12">
+            <div class="moreinfo">
+
+                <p class="longtext" hidden>
+                    I'm passionate about creating <br />
+                    usable touchscreen products :) <br/><br/>
+                    I also read,<a href="http://blog.sgheysar.com/"> write</a> and <a href="https://twitter.com/gheysars">tweet</a>.<br />
+                    My works are available on <a href="http://dribbble.com/sgheysar">Dribbble</a> & <a href="http://www.behance.net/SepidehGheysar">Behance</a> profiles.<br />
+                    Feel free to contact me at <a href="https://twitter.com/gheysars">@gheysars</a> or shoot me an <a href="mailto:sepideh@sgheysar.com">email</a>.<br />
+                </p>
+
+                <p class="smalltext">
+                I also read,<a href="http://blog.sgheysar.com/"> write</a> and <a href="https://twitter.com/gheysars">tweet</a>.<br />
+                My works are available on <a href="http://dribbble.com/sgheysar">Dribbble</a> & <a href="http://www.behance.net/SepidehGheysar">Behance</a> profiles.<br />
+                Feel free to contact me at <a href="https://twitter.com/gheysars">@gheysars</a> or shoot me an <a href="mailto:sepideh@sgheysar.com">email</a>.<br />
+                </p>
+
+                <div class="footer">© 2014 Sepideh Gheysar</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49534221-1', 'sgheysar.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
